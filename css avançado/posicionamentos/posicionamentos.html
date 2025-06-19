@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamentos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--
+    Fluxo Normal (position: static): cada elemento de nível de bloco aparece em uma nova linha, fazendo com que um 
+    item apareça em baixo de outro mesmo definindo uma largura na qual seja possível que um fique ao lado do outro.
+    É o comportamento padrão (a menos que seja alterado)
+
+    Posicionamento relativo (position:relative): Move um elemento da posição que ele estaria no fluxo normal,
+    deslocando-o para a parte superior, inferior, esquerda ou direita de onde ele seria posicionado. Não afete a 
+    posição dos outros elementos, pois eles vão se comportar como se o elemento não tivesse a sua posição alterada.
+    
+    Posicionamento absoluto (position:absolute): Posiciona o elemento em relação ao seu elemento container (que tem
+    uma posição definita), o elemento é removido do fluxo normal, o que significa que ele não afeta a posição dos 
+    elementos próximos a ele. Elementos posicionados de forma absoluta, movem-se a medida que o usuário rola a 
+    página para cima ou para baixo 
+
+    Posicionamento fixo (position:Fixed): Essa é uma forma de posicionamento absoluto que posiciona um elemento em 
+    relação a janela do navegador, em vez de usar o elemento contêiner. Elemenos com posicionamento fixo, não afetam 
+    a posição dos elementos próximos e não se movem quando o usuário rola para cima ou para baixo na página.
+    -->
+
+    <div id="container">
+        <img id="novosite" src="/css avançado/posicionamentos/img/novo.png" alt="">
+        <div id="header">
+            <img class="logo" src="/css avançado/posicionamentos/img/logo-magalu.png" alt="">
+                <a class="navegacao" href="">Home</a>
+                <a class="navegacao" href="">Sobre</a>
+                <a class="navegacao" href="">Produtos</a>
+                <a class="navegacao" href="">Meus pedidos</a>
+                <a class="navegacao" href="">Contato</a>
+        </div>
+        <div class="paragrafos">
+            <h1>Título</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum vero aperiam harum obcaecati saepe reprehenderit quos veritatis officiis aliquam expedita debitis, quae earum quod, enim suscipit! Minima ut blanditiis sequi velit qui dolores, nisi tempore nulla quo aliquid, voluptatibus quia veniam deleniti, accusantium voluptates aspernatur amet? Consequuntur, hic. Praesentium tenetur quam, modi dolor quia quos voluptates obcaecati culpa consequuntur. Cupiditate est error aspernatur illo earum, facilis modi. Voluptates, quam consequatur quos quaerat et officiis corrupti tenetur culpa ullam. Distinctio sit incidunt delectus dicta vitae odit eum omnis. Possimus, modi consequatur in et autem ducimus consectetur aliquid tempora accusantium hic? Pariatur.</p>
+            <hr>    
+        </div>
+        <div class="paragrafos">
+            <h1>Título</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum vero aperiam harum obcaecati saepe reprehenderit quos veritatis officiis aliquam expedita debitis, quae earum quod, enim suscipit! Minima ut blanditiis sequi velit qui dolores, nisi tempore nulla quo aliquid, voluptatibus quia veniam deleniti, accusantium voluptates aspernatur amet? Consequuntur, hic. Praesentium tenetur quam, modi dolor quia quos voluptates obcaecati culpa consequuntur. Cupiditate est error aspernatur illo earum, facilis modi. Voluptates, quam consequatur quos quaerat et officiis corrupti tenetur culpa ullam. Distinctio sit incidunt delectus dicta vitae odit eum omnis. Possimus, modi consequatur in et autem ducimus consectetur aliquid tempora accusantium hic? Pariatur.</p>
+            <hr>    
+        </div>
+        <div class="paragrafos">
+            <h1>Título</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum vero aperiam harum obcaecati saepe reprehenderit quos veritatis officiis aliquam expedita debitis, quae earum quod, enim suscipit! Minima ut blanditiis sequi velit qui dolores, nisi tempore nulla quo aliquid, voluptatibus quia veniam deleniti, accusantium voluptates aspernatur amet? Consequuntur, hic. Praesentium tenetur quam, modi dolor quia quos voluptates obcaecati culpa consequuntur. Cupiditate est error aspernatur illo earum, facilis modi. Voluptates, quam consequatur quos quaerat et officiis corrupti tenetur culpa ullam. Distinctio sit incidunt delectus dicta vitae odit eum omnis. Possimus, modi consequatur in et autem ducimus consectetur aliquid tempora accusantium hic? Pariatur.</p>
+            <hr>    
+        </div>
+        <div class="paragrafos">
+            <h1>Título</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum vero aperiam harum obcaecati saepe reprehenderit quos veritatis officiis aliquam expedita debitis, quae earum quod, enim suscipit! Minima ut blanditiis sequi velit qui dolores, nisi tempore nulla quo aliquid, voluptatibus quia veniam deleniti, accusantium voluptates aspernatur amet? Consequuntur, hic. Praesentium tenetur quam, modi dolor quia quos voluptates obcaecati culpa consequuntur. Cupiditate est error aspernatur illo earum, facilis modi. Voluptates, quam consequatur quos quaerat et officiis corrupti tenetur culpa ullam. Distinctio sit incidunt delectus dicta vitae odit eum omnis. Possimus, modi consequatur in et autem ducimus consectetur aliquid tempora accusantium hic? Pariatur.</p>
+            <hr>    
+        </div>
+    </div>
+
+    <div id="chat">
+        <h2 id="titulo-chat">Chat</h2>
+        <textarea id="campo-mensagem" name="texto" id="" placeholder="Digite sua mensagem aqui..."></textarea>
+        <input type="submit">
+    </div>
+
+    
+</body>
+</html>

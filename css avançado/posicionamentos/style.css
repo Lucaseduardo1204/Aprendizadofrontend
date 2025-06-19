@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    background-color: lightblue;
+}
+
+
+#container{
+    position: relative;
+    width: 1200px;
+    padding: 15px;
+    background-color: white;
+    margin: 10px auto;
+
+}
+
+.logo{
+    width: 200px;
+}
+
+#novosite{
+    width: 150px;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    right: 0;
+}
+
+#header {
+    background-color: dodgerblue;
+    padding: 15px;
+}
+
+#chat{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    height: 200px;
+    background-color: lightgreen;
+    padding: 10px;
+
+}
+
+#campo-mensagem{
+    width: 230px;
+    height: 100px;
+}
+
+
+.navegacao{
+    padding:10px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+}
+
+.navegacao:hover{
+    background-color: white;
+    color: dodgerblue;
+}
