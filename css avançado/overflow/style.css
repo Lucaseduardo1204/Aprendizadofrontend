@@ -1,0 +1,25 @@
+body{
+    background-color: lightblue;
+}
+
+#container{
+    padding: 15px;
+    background-color: white;
+    min-width: 600px;
+    max-width: 800px;
+    margin: 10px auto;
+    height: 600px;
+    overflow: auto;
+}
+
+h1{
+    margin: 10px 0px;
+}
+
+p{
+    margin-top: 5px;
+}
+
+.container:hover{
+    box-shadow: 5px  10px green;
+}
