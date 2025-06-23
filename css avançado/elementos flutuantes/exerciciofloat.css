@@ -1,0 +1,29 @@
+
+body{
+    margin: 0;
+}
+.main{
+    margin: 10px auto;
+}
+
+#container{
+    width: 1200px;
+    border: 2px solid red;
+    margin: 0px auto;
+}
+
+.esquerda{
+    width: 800px;
+    margin: 20px 10px;
+    float: left;
+}
+
+.direita{
+    float: left;
+}
+
+.menu{
+    padding: 15px;
+    margin: 0 10px;
+    border: 1px dotted gray;
+}
